@@ -1,0 +1,369 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
+@media only screen and (max-width: 768px) {
+    body{
+        font-size: 20px;
+    }
+    .navbar-nav{
+        text-align: right;
+    }
+    .nav-link {
+        display: block;
+        padding: .4rem 1rem;
+    }
+    .box-container{
+        margin-bottom: 15px;
+    }
+    .overlay-desc {
+        width: 100%;
+        line-height: 70px;
+    }
+    .turbo-desc{
+        text-align: center;
+    }
+    .policy{
+        width:100%;
+        text-align:center;
+    }
+    .social-media {
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+    }
+    li{
+        padding-bottom: 20px;
+    }
+    .align{
+        text-align: justify;
+        padding: 15px 50px 15px 50px;
+        font-size: 0.8em;	
+        line-height: 25px;
+    }
+    .negative-margin{
+       flex-direction: column;
+    }
+    .case-study{
+        width: 100%;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .box-container{
+        width: 100%
+    }
+    .margin-left{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .margin-right{
+        margin-top: -150px;  
+    }
+    
+    
+}
+@media only screen and (min-width: 769px) {
+    body{
+        font-size: 22px;
+    }
+    .navbar-nav > li {
+        margin-right: 20px;
+    }
+    .box-container{
+        margin-right: 25px;
+        min-height: 538px;
+        width: 33%;
+    }
+    .overlay-desc {
+        width: 65%; 
+        line-height: 88px;
+    }
+    .policy{
+        width:70%;
+        padding-left: 6%;
+    }
+    .social-media {
+        width: 30%;
+    }
+
+    li{
+        display: inline-block;
+        padding-right: 20px;
+    }
+    .align{
+        text-align: justify;
+        padding: 80px 50px 0px 50px;
+        font-size: 0.8em;	
+        line-height: 25px;
+    }
+    .case-study{
+        width: 48%; 
+        margin-bottom: 5rem; 
+        margin-top: -150px;
+    }
+    .margin-right{
+        margin-right: 4%;  
+    }
+    .turbo-desc-b{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-family: 'Muli', sans-serif;	
+}
+.container-fluid{
+    width: 90%;
+    margin: auto;
+}
+
+button {
+    border: 0px;
+    height: 40px;
+    font-size: 18px;	
+    font-weight: 700;	
+    line-height: 20px;
+    color: #ffffff;	
+    padding-left:20px;
+    padding-right: 20px;
+    background-color: #36AB9D;
+}
+.overlay{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* background image links */
+.hero {
+    background-image: url("../images/Hero.png");
+}
+.service-hero {
+    background-image: url("../images/Service_hero.png");
+}
+.service-report {
+    background-image: url("../images/service_report.png")
+}
+
+.service-turbo-capital{
+    background-image: url("../images/service_turbo_capital.png");
+    height: 537px;
+}
+.service-turbo-power{
+    background-image: url("../images/service_turbo_power.png");
+    height: 537px;
+}
+.service-turbo-consulting{
+    background-image: url("../images/service_turbo_consulting.png");
+    height: 537px;
+}
+.turbo-service {
+    background-image: url("../images/turbo-service.png");
+}
+.turbo-insights {
+    background-image: url("../images/turbo-insights.jpg");
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.cases {
+    background-image: url("../images/Cases.png")
+}
+/* nav bar */
+.bg-light{
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.navbar-nav > li.nav-item.active > a{
+    color: #3394FF !important;
+}
+.navbar-nav > li.nav-item > a, footer{
+    color: #000000 !important;
+    font-size: 0.6em;
+    font-weight: 700;
+    font-family: Muli;
+}
+
+/* section 1 */
+.overlay-desc{
+    padding: 230px 0px 150px 0px;
+    font-size: 3.0em;	
+    font-style: italic;	
+    font-weight: 900;	
+}
+
+/* section 2 */
+.trusted-by{
+    min-height: 200px;	
+    background-color: #000;
+    padding: 45px 0px 20px 0px;
+    text-align: center;
+    font-size: 0.8em;	
+    line-height: 33px;
+}
+
+/* section 3 */
+header{
+    font-size: 2.0em;	
+    font-style: italic;	
+    font-weight: 700;	
+    line-height: 63px;
+    padding: 50px 0px 50px 0px;
+}
+
+header > button {
+    background-color: #ffffff !important;
+    color: #007AFF;
+}
+.services {
+    display: flex;
+    width: 100%;
+}
+.box-container{
+    box-sizing: border-box;	
+    font-size: 0.7em;	
+    line-height: 25px;	
+    text-align: justify;
+    padding: 0px 50px 0px 50px;
+}
+
+.turbo-consulting-bg{
+    background-color: #007AFF;	
+    border: 1px solid #007AFF;
+}
+
+.turbo-capital-bg {
+    background-color: #5B36AB;	
+    border: 1px solid #5B36AB;
+}
+
+.turbo-power-bg {
+    background-color: #36AB9D;
+}
+
+/* section 4 */
+.turbo-desc{
+    color: #007AFF;	
+    font-family: Muli;	
+    font-size: 1.2em;
+    font-weight: 700;	
+    line-height: 45px;
+    text-align: justify;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+.about {
+    margin: 50px 0px 50px 0px;
+}
+
+/*section 5 */
+.unlock-potential{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.box-insight {
+    padding: 40px 40px;
+    font-size: 1em;	
+    line-height: 30px;
+}
+.bg-insight{
+    margin-top: 25px;
+    color: #0065D0;
+    background-color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.insight {
+    text-align: center !important;
+    width: 100%;
+    font-weight: 1000;
+}
+
+.bg-vital {
+    background-color: #007AFF;
+}
+.bg-influence {
+    background-color: #0070E8;
+}
+.bg-reinvent {
+    background-color: #0065D0;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    display: flex;
+    min-height: 100px;
+}
+.policy{
+    background: #36AB9D;
+    min-height: 100%;
+    padding-top: 45px;
+}
+.social-media {
+    background: #2D2D2D;
+    min-height: 100%;
+    padding-top: 45px;
+    text-align:center;
+}
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+
+/* services page */
+.turbo-box{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.blue-bg{	
+    background-color: #007AFF;	
+    border: 1px solid #007AFF;
+}
+.indigo-bg{
+    background-color: #5B36AB;
+}
+.services-turbo-consulting-bg{
+    background-color: #1283FD;
+    padding-top: 60px;
+    padding-bottom: 200px;
+}
+.negative-margin{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+.case-study{
+    background-color: #0070E8;
+    padding: 50px 50px 30px 50px;
+    font-size: 0.8em;
+    color: #E4F1FF;
+    line-height: 30px;
+}
+p.header{
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.carousel-indicators li {
+    height: 24px;
+    background-color: rgba(90,127,75,0.3);
+}
+.carousel-indicators .active{
+    background-color: #007AFF;
+}
+.social-media img{
+    background: transparent;
+    color: white;
+    height: 25px;
+    width: 25px;
+}
